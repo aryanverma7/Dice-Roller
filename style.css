@@ -1,12 +1,25 @@
 body{
-    background-color: #393E46;
+    background-color: #222831;
 }
 h1,h2{
     font-family: 'Lobster',cursive;
-    color: #4ECCA3;
+    color: #00ADB5;
     font-size: 7rem;
     margin: 30px;
-    text-shadow: 5px 0 #232931;
+    text-shadow: 5px 0 #393E46;
+}
+.btn{
+    margin: 7% 47%;
+    font-family: 'Lobster',cursive;
+    margin-bottom: 0;
+    background-color: #00ADB5;
+    color: #222831;
+    box-sizing: border-box;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
+    box-shadow: 5px 0 #393E46;
+    border: 1px solid #00ADB5;
+    font-size: 1.5rem;
 }
 #lul{
     font-size: 5rem;
@@ -22,7 +35,7 @@ h1,h2{
 }
 p{
     font-size: 2rem;
-    color: #4ECCA3;
+    color: #00ADB5;
     font-family: 'Indie Flower',cursive;
 }
 img{
@@ -33,4 +46,8 @@ footer{
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower',cursive;
+}
+.pressed{
+    box-shadow: 0 0 20px #00ADB5;
+    background-color: #393E46;
 }
